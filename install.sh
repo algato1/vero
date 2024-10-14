@@ -10,7 +10,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\$REPO_NAME/soul.py bot_token -100 -100 -100",
+    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\$REPO_NAME/soul.py bot_6952936117:AAGuukjVLHUHCjzy-7C5za1Hi_DJ7kJw7Rc -1002202982532 -1002202982532 -1002202982532",
     "customizations": {
         "vscode": {
             "settings": {
